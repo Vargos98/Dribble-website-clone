@@ -171,6 +171,7 @@ h3:hover{
 }
 
 #card{
+  margin: 30px auto ;
   width: 30%;
   height: 12vw;
   position: relative;
@@ -240,7 +241,7 @@ h3:hover{
 #lhs>p{
   font-size: 0.9vw;
   font-weight: 500;
-  margin-right: 10vw;
+  margin-right: 12vw;
 }
 span{
   font-size: 0.7vw;
