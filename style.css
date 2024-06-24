@@ -12,6 +12,7 @@
 html,body{
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 #nav{
@@ -236,6 +237,78 @@ h3:hover{
 }
 
 
+
+#image-display{
+  width: fit-content;
+  height: 70%;
+  padding: 40px;
+  display: flex;
+  gap: 30px;
+  /* background-color: #B7FFD8; */
+  animation-name: scroll;
+  animation-duration: 240s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+@keyframes scroll {
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(-100%);
+  }
+  
+}
+
+#image-display #profile{
+  width: 300px;
+  height: 400px;
+  background-color: yellow;
+  border-radius: 40px;
+  position: relative;
+
+}
+#profile>img{
+  width: 300px;
+  height: 400px;
+  border-radius: 40px;
+}
+
+#profile>h4{
+  position: absolute;
+  color: white;
+  bottom: 80px;
+  left: 20px;
+  font-size: 18px;
+}
+#profile>h5{
+  position: absolute;
+  color: white;
+  bottom: 60px;
+  left: 20px;
+  font-size: 13px;
+}
+#work{
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: 18px;
+  left: 20px;
+}
+#work>h5{
+  font-size: 10px;
+  font-weight: 700;
+  padding: 10px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.726);
+  border-radius: 30px;
+  
+
+
+
+}
 
 
 
