@@ -429,6 +429,73 @@ h3:hover{
   color: grey;
   cursor: pointer;
 }
+
+#overlay{
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  width: 100%;
+  height: 110%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.293);
+  position: absolute;
+  transition: 0.3s ease;
+}
+
+#overlay:hover{
+  opacity: 1;
+}
+
+#overlay #L>h5{
+  position: absolute;
+  bottom:10px;
+  left: 20px;
+  color: white;
+  font-weight: 500;
+}
+#overlay #R{
+    position: absolute;
+    bottom:10px;
+    left: 280px;
+  
+}
+#overlay #R>i{
+  
+  color: white;
+  font-weight: bold;
+}
+
+
+#browse{
+  /* background-color: #7D1D3F; */
+  width: 100%;
+  height: 30%;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#browse>button{
+  background-color: white;
+  width: 12%;
+  padding: 15px 30px;
+  font-size: 14px;
+  margin-top: -60px;
+  border: 0.8px solid black;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#browse>button:hover{
+
+  border: 0.8px solid rgb(50, 50, 50);
+  color: rgb(50, 50, 50);
+}
+
+
 #footer{
   width: 20vw;
   height: 40%;
