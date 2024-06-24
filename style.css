@@ -183,7 +183,7 @@ h3:hover{
   font-family: "Merriweather", serif;
   background-color: cyan;
   animation-name: mymove;
-  animation-duration: 60s;
+  animation-duration: 50s;
   animation-iteration-count:infinite;
   animation-timing-function: linear;
 }
