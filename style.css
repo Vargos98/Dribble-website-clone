@@ -344,13 +344,16 @@ h3:hover{
 }
 
 #container{
-  margin-left: 60px;
+
   width: 100%;
   height: 100%;
   padding: 80px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  /* background-color: #827191; */
 }
 
 
@@ -376,6 +379,7 @@ h3:hover{
 #card>img{
   width: 100%;
   border-radius: 10px;
+  object-fit: cover;
   cursor: pointer;
 }
 
@@ -435,7 +439,7 @@ h3:hover{
   justify-content: space-between;
   opacity: 0;
   width: 100%;
-  height: 110%;
+  height: 109.7%;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.293);
   position: absolute;
@@ -478,15 +482,16 @@ h3:hover{
 
 #browse>button{
   background-color: white;
-  width: 12%;
-  padding: 15px 30px;
-  font-size: 14px;
-  margin-top: -60px;
+  width: 14%;
+  padding: 15px 18px;
+  font-size: 15px;
+  margin: 2vw ;
   border: 0.8px solid black;
   border-radius: 30px;
   font-weight: 500;
   cursor: pointer;
   transition: 0.3s ease;
+ 
 }
 
 #browse>button:hover{
@@ -500,4 +505,70 @@ h3:hover{
   width: 20vw;
   height: 40%;
   background-color: beige;
+}
+
+#lower-section{
+  width: 100%;
+  height: 90vh;
+  padding: 30px;
+  background-color: #ffda79;
+  /* margin-bottom: 2vw; */
+  text-align: center;
+  color: #2b272c;
+}
+
+#lower-section>h1{
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 1;
+  padding: 40px;
+}
+
+#lower-section>p{
+  font-weight: 400;
+  font-size: 22px;
+  margin: 10px;
+}
+
+#lower-section>#white{
+  background-color: black;
+  color: white;
+ 
+  width: fit-content;
+  padding: 15px 18px;
+  font-size: 15px;
+  margin: 40px 0;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+#lower-section>#black{
+  background-color: white;
+  width: fit-content;
+  padding: 15px 18px;
+  font-size: 15px;
+  margin: 40px 0;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+#lower-section>h4{
+  font-size: 22px;
+  font-weight: 400;
+}
+#lower-section h4 a{
+  color: #2b272c;
+}
+
+
+
+#carousel{
+  width: 100%;
+  height: 40%;
+  background-color: #81667A;
 }
